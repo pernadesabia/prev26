@@ -1,0 +1,25 @@
+[KPIs]
+Quantidade de vezes que o cliente utiliza o WEBAPP
+Período de utilização por hora, dia, semana e mês
+*** PWA - Monitorar utilização de conteúdos do cliente (Não da pra fazer: IOS/Safari) - Sniffer
+
+
+[Arquitetura]
+Criar API de CRUD para receber JSON Analytcs
+
+{
+  id:0, //Se Id 0 então novo dado senão atualiza Identity
+  userId: 123, //Se for 0 é guest | Int
+  context:"DISC-Inteligencia", // 
+  dataAnalytcs:{ 
+	        } | Json
+}
+
+dataAnalytcs
+{
+   DataEvento
+   AreaSite -> TagManager | 
+  
+Allan precisa fazer:
+- Criar API de CRUD para receber JSON Analytcs
+- Criar tabela para persistir os dados analiticos
